@@ -1,0 +1,17 @@
+a = 2.202
+b = -2.202
+
+# Negation (-) inverts the sign
+print("Minus operator value 1:", -a)
+print("Minus operator value 2:", -b)
+
+# Unary plus (+) keeps the value unchanged
+print("Plus operator value 1:", +a)
+print("Plus operator value 2:", +b)
+
+a = 2
+b = -2
+
+# Bitwise NOT (~) flips bits, behaves like -(x+1)
+print("Invert operator value 1:", ~a) 
+print("Invert operator value 2:", ~b)
